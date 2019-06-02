@@ -1,0 +1,109 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NHashcash", "NHashcash\NHashcash.csproj", "{CA9F406F-7432-4670-AFCC-3FAEA011BD67}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{6E024BC4-C68D-4647-BEAF-48B094DC0EFC}"
+	ProjectSection(SolutionItems) = preProject
+		Local.testsettings = Local.testsettings
+		NHashcash.vsmdi = NHashcash.vsmdi
+		TraceAndTestImpact.testsettings = TraceAndTestImpact.testsettings
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Minter", "Minter\Minter.csproj", "{996B0B11-42F3-4707-8036-C3413B6F5320}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NHashcash.Specifications", "NHashcash.Specifications\NHashcash.Specifications.csproj", "{4BBDB1E9-D280-4529-B603-BE98138B5091}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tools", "Tools", "{B2B7C690-C897-48B7-BCE9-AB70A889AD6B}"
+	ProjectSection(SolutionItems) = preProject
+		Tools\NuGet\NuGet.Core.dll = Tools\NuGet\NuGet.Core.dll
+		Tools\NuGet\NuGet.exe = Tools\NuGet\NuGet.exe
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "NuGet", "NuGet", "{94C86CA4-454B-4E8F-94DE-74D1C2ADFD98}"
+	ProjectSection(SolutionItems) = preProject
+		Tools\NuGet\NuGet.Core.dll = Tools\NuGet\NuGet.Core.dll
+		Tools\NuGet\NuGet.exe = Tools\NuGet\NuGet.exe
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NHashcash.Tests", "NHashcash.Tests\NHashcash.Tests.csproj", "{536E3FC6-105C-4FAD-92E8-158F37CDE371}"
+EndProject
+Global
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 5
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://tfs.codeplex.com/tfs/tfs07
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = Minter\\Minter.csproj
+		SccProjectName1 = Minter
+		SccLocalPath1 = Minter
+		SccProjectUniqueName2 = NHashcash\\NHashcash.csproj
+		SccProjectName2 = NHashcash
+		SccLocalPath2 = NHashcash
+		SccProjectUniqueName3 = NHashcash.Specifications\\NHashcash.Specifications.csproj
+		SccProjectName3 = NHashcash.Specifications
+		SccLocalPath3 = NHashcash.Specifications
+		SccProjectUniqueName4 = NHashcash.Tests\\NHashcash.Tests.csproj
+		SccProjectName4 = NHashcash.Tests
+		SccLocalPath4 = NHashcash.Tests
+	EndGlobalSection
+	GlobalSection(TestCaseManagementSettings) = postSolution
+		CategoryFile = NHashcash.vsmdi
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|Mixed Platforms = Debug|Mixed Platforms
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|Mixed Platforms = Release|Mixed Platforms
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CA9F406F-7432-4670-AFCC-3FAEA011BD67}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CA9F406F-7432-4670-AFCC-3FAEA011BD67}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CA9F406F-7432-4670-AFCC-3FAEA011BD67}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{CA9F406F-7432-4670-AFCC-3FAEA011BD67}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{CA9F406F-7432-4670-AFCC-3FAEA011BD67}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{CA9F406F-7432-4670-AFCC-3FAEA011BD67}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CA9F406F-7432-4670-AFCC-3FAEA011BD67}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CA9F406F-7432-4670-AFCC-3FAEA011BD67}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{CA9F406F-7432-4670-AFCC-3FAEA011BD67}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{CA9F406F-7432-4670-AFCC-3FAEA011BD67}.Release|x86.ActiveCfg = Release|Any CPU
+		{996B0B11-42F3-4707-8036-C3413B6F5320}.Debug|Any CPU.ActiveCfg = Debug|x86
+		{996B0B11-42F3-4707-8036-C3413B6F5320}.Debug|Mixed Platforms.ActiveCfg = Debug|x86
+		{996B0B11-42F3-4707-8036-C3413B6F5320}.Debug|Mixed Platforms.Build.0 = Debug|x86
+		{996B0B11-42F3-4707-8036-C3413B6F5320}.Debug|x86.ActiveCfg = Debug|x86
+		{996B0B11-42F3-4707-8036-C3413B6F5320}.Debug|x86.Build.0 = Debug|x86
+		{996B0B11-42F3-4707-8036-C3413B6F5320}.Release|Any CPU.ActiveCfg = Release|x86
+		{996B0B11-42F3-4707-8036-C3413B6F5320}.Release|Mixed Platforms.ActiveCfg = Release|x86
+		{996B0B11-42F3-4707-8036-C3413B6F5320}.Release|Mixed Platforms.Build.0 = Release|x86
+		{996B0B11-42F3-4707-8036-C3413B6F5320}.Release|x86.ActiveCfg = Release|x86
+		{996B0B11-42F3-4707-8036-C3413B6F5320}.Release|x86.Build.0 = Release|x86
+		{4BBDB1E9-D280-4529-B603-BE98138B5091}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4BBDB1E9-D280-4529-B603-BE98138B5091}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4BBDB1E9-D280-4529-B603-BE98138B5091}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{4BBDB1E9-D280-4529-B603-BE98138B5091}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{4BBDB1E9-D280-4529-B603-BE98138B5091}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{4BBDB1E9-D280-4529-B603-BE98138B5091}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4BBDB1E9-D280-4529-B603-BE98138B5091}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4BBDB1E9-D280-4529-B603-BE98138B5091}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{4BBDB1E9-D280-4529-B603-BE98138B5091}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{4BBDB1E9-D280-4529-B603-BE98138B5091}.Release|x86.ActiveCfg = Release|Any CPU
+		{536E3FC6-105C-4FAD-92E8-158F37CDE371}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{536E3FC6-105C-4FAD-92E8-158F37CDE371}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{536E3FC6-105C-4FAD-92E8-158F37CDE371}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{536E3FC6-105C-4FAD-92E8-158F37CDE371}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{536E3FC6-105C-4FAD-92E8-158F37CDE371}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{536E3FC6-105C-4FAD-92E8-158F37CDE371}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{536E3FC6-105C-4FAD-92E8-158F37CDE371}.Release|Any CPU.Build.0 = Release|Any CPU
+		{536E3FC6-105C-4FAD-92E8-158F37CDE371}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{536E3FC6-105C-4FAD-92E8-158F37CDE371}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{536E3FC6-105C-4FAD-92E8-158F37CDE371}.Release|x86.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{94C86CA4-454B-4E8F-94DE-74D1C2ADFD98} = {B2B7C690-C897-48B7-BCE9-AB70A889AD6B}
+	EndGlobalSection
+EndGlobal

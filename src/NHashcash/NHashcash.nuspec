@@ -1,0 +1,19 @@
+﻿<?xml version="1.0"?>
+<package xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <metadata xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+    <id>NHashcash</id>
+    <version>1.1.0</version>
+    <title>NHashcash</title>
+    <authors>Mitch Denny</authors>
+    <owners>Mitch Denny</owners>
+    <licenseUrl>http://nhashcash.codeplex.com/license</licenseUrl>
+    <projectUrl>http://nhashcash.codeplex.com</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>A managed implementation of the Hashcash anti-spam/anti-DoS system.</description>
+    <summary>A managed implementation of the Hashcash anti-spam/anti-DoS system.</summary>
+    <language>en-US</language>
+  </metadata>
+  <files>
+    <file src="NHashcash.dll" target="lib/NET40" />
+  </files>
+</package>
